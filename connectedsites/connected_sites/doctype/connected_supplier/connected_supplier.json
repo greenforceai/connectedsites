@@ -1,23 +1,19 @@
 {
  "actions": [],
- "autoname": "format: CS-{oauth2_client_id}",
+ "autoname": "format: {suppliler_client_id}",
  "creation": "2024-04-28 11:25:06.037586",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "connected_site_section",
-  "oauth2_client_id",
+  "suppliler_client_id",
   "scope_id",
   "user_id",
   "column_break_oqjy",
-  "supplier"
+  "supplier",
+  "supplier_base_url"
  ],
  "fields": [
-  {
-   "fieldname": "oauth2_client_id",
-   "fieldtype": "Data",
-   "label": "OAuth2 Client Id"
-  },
   {
    "fieldname": "scope_id",
    "fieldtype": "Data",
@@ -35,18 +31,30 @@
   {
    "fieldname": "supplier",
    "fieldtype": "Link",
-   "label": "Supplier",
+   "in_list_view": 1,
+   "label": "Supplier Name",
    "options": "Supplier"
   },
   {
    "fieldname": "connected_site_section",
    "fieldtype": "Section Break",
    "label": "Connected Site"
+  },
+  {
+   "fieldname": "supplier_base_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supplier Base Url"
+  },
+  {
+   "fieldname": "suppliler_client_id",
+   "fieldtype": "Data",
+   "label": "Supplier Client Id"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-28 11:37:44.999565",
+ "modified": "2024-04-28 15:23:45.046071",
  "modified_by": "Administrator",
  "module": "Connected Sites",
  "name": "Connected Supplier",

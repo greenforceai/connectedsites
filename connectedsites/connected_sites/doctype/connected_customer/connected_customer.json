@@ -1,12 +1,12 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "format: CC-{customer}",
+ "autoname": "format: {customer_client_id}",
  "creation": "2024-04-28 11:43:58.168959",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "oauth2_client_id",
+  "settings_section",
+  "customer_client_id",
   "scope_id",
   "user_id",
   "column_break_crxe",
@@ -14,11 +14,6 @@
   "customer_base_url"
  ],
  "fields": [
-  {
-   "fieldname": "oauth2_client_id",
-   "fieldtype": "Data",
-   "label": "OAuth2 Client Id"
-  },
   {
    "fieldname": "scope_id",
    "fieldtype": "Data",
@@ -36,18 +31,30 @@
   {
    "fieldname": "customer",
    "fieldtype": "Link",
-   "label": "Customer",
+   "in_list_view": 1,
+   "label": "Customer Name",
    "options": "Customer"
   },
   {
    "fieldname": "customer_base_url",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Customer Base Url"
+  },
+  {
+   "fieldname": "settings_section",
+   "fieldtype": "Section Break",
+   "label": "Settings"
+  },
+  {
+   "fieldname": "customer_client_id",
+   "fieldtype": "Data",
+   "label": "Customer Client Id"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-28 11:50:15.665968",
+ "modified": "2024-04-28 15:24:02.643041",
  "modified_by": "Administrator",
  "module": "Connected Sites",
  "name": "Connected Customer",
