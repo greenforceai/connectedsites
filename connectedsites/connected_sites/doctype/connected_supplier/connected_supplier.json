@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "format: CS-{oauth2_client_id}",
+ "creation": "2024-04-28 11:25:06.037586",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "connected_site_section",
+  "oauth2_client_id",
+  "scope_id",
+  "user_id",
+  "column_break_oqjy",
+  "supplier"
+ ],
+ "fields": [
+  {
+   "fieldname": "oauth2_client_id",
+   "fieldtype": "Data",
+   "label": "OAuth2 Client Id"
+  },
+  {
+   "fieldname": "scope_id",
+   "fieldtype": "Data",
+   "label": "Scope Id"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User Id"
+  },
+  {
+   "fieldname": "column_break_oqjy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "connected_site_section",
+   "fieldtype": "Section Break",
+   "label": "Connected Site"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-28 11:37:44.999565",
+ "modified_by": "Administrator",
+ "module": "Connected Sites",
+ "name": "Connected Supplier",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
