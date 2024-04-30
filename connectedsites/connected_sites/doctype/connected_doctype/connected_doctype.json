@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "autoname": "format: {connected_doctype-{match_by}",
+ "creation": "2024-04-28 17:14:18.440725",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "connected_document_section",
+  "column_break_ozai",
+  "connected_doctype",
+  "column_break_tvtk",
+  "match_by",
+  "permissions_section",
+  "column_break_lgpw",
+  "can_read",
+  "column_break_jvfp",
+  "can_edit",
+  "column_break_mxxj",
+  "can_create",
+  "column_break_kliy",
+  "can_delete"
+ ],
+ "fields": [
+  {
+   "fieldname": "connected_document_section",
+   "fieldtype": "Section Break",
+   "label": "Connected Document"
+  },
+  {
+   "fieldname": "column_break_ozai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "connected_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Connected Document Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "column_break_tvtk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "match_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Match By"
+  },
+  {
+   "fieldname": "permissions_section",
+   "fieldtype": "Section Break",
+   "label": "Permissions"
+  },
+  {
+   "fieldname": "column_break_lgpw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "can_read",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Read"
+  },
+  {
+   "fieldname": "column_break_jvfp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "can_edit",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Edit"
+  },
+  {
+   "fieldname": "column_break_mxxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "can_create",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Create"
+  },
+  {
+   "fieldname": "column_break_kliy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "can_delete",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Delete"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-28 17:29:05.490191",
+ "modified_by": "Administrator",
+ "module": "Connected Sites",
+ "name": "Connected DocType",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

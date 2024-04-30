@@ -11,7 +11,9 @@
   "user_id",
   "column_break_oqjy",
   "supplier",
-  "supplier_base_url"
+  "supplier_base_url",
+  "section_break_mbxh",
+  "connected_documents"
  ],
  "fields": [
   {
@@ -50,11 +52,21 @@
    "fieldname": "suppliler_client_id",
    "fieldtype": "Data",
    "label": "Supplier Client Id"
+  },
+  {
+   "fieldname": "section_break_mbxh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "connected_documents",
+   "fieldtype": "Table",
+   "label": "Connected Documents",
+   "options": "Connected DocType"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-28 15:23:45.046071",
+ "modified": "2024-04-28 17:31:56.623873",
  "modified_by": "Administrator",
  "module": "Connected Sites",
  "name": "Connected Supplier",

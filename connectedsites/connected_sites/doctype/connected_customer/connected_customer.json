@@ -11,7 +11,9 @@
   "user_id",
   "column_break_crxe",
   "customer",
-  "customer_base_url"
+  "customer_base_url",
+  "section_break_heam",
+  "connected_documents"
  ],
  "fields": [
   {
@@ -50,11 +52,21 @@
    "fieldname": "customer_client_id",
    "fieldtype": "Data",
    "label": "Customer Client Id"
+  },
+  {
+   "fieldname": "section_break_heam",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "connected_documents",
+   "fieldtype": "Table",
+   "label": "Connected Documents",
+   "options": "Connected DocType"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-28 15:24:02.643041",
+ "modified": "2024-04-28 17:32:37.075770",
  "modified_by": "Administrator",
  "module": "Connected Sites",
  "name": "Connected Customer",
